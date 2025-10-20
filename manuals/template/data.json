@@ -1,0 +1,181 @@
+{
+    "version": "1.0.0",
+    "product": {
+        "id": "AN-1001",
+        "name": {
+            "zh": "AI 网络路由器",
+            "en": "AI Network Router"
+        },
+        "model": "AN-R1000",
+        "brand": "AI Network",
+        "category": "Networking",
+        "release_date": "2025-10-01"
+    },
+    "meta": {
+        "language": "zh",
+        "last_updated": "2025-10-20T09:00:00+08:00",
+        "author": "AI Network Documentation Team",
+        "document_id": "manual-an-1001-zh-v1.0.0"
+    },
+    "overview": {
+        "description": {
+            "zh": "AI 网络路由器是一款高性能智能路由设备。",
+            "en": "The AI Network Router is a high-performance smart routing device."
+        },
+        "features": [
+            "多WAN自动切换",
+            "智能流量识别",
+            "云端管理"
+        ],
+        "images": [
+            "https://cdn.example.com/an1001/front.jpg"
+        ]
+    },
+    "specifications": {
+        "hardware": {
+            "cpu": "Quad-Core 1.8GHz",
+            "ram": "512MB DDR4",
+            "rom": "128MB Flash",
+            "ports": [
+                {
+                    "type": "WAN",
+                    "quantity": 2
+                },
+                {
+                    "type": "LAN",
+                    "quantity": 4,
+                    "speed": "1Gbps"
+                }
+            ]
+        },
+        "wireless": {
+            "standards": [
+                "802.11ax",
+                "802.11ac"
+            ],
+            "bands": [
+                {
+                    "frequency": "2.4GHz",
+                    "speed": "574Mbps"
+                },
+                {
+                    "frequency": "5GHz",
+                    "speed": "1200Mbps"
+                }
+            ]
+        },
+        "power": {
+            "input": "DC 12V / 2A",
+            "consumption": "Max 20W"
+        },
+        "dimensions": {
+            "width_mm": 220,
+            "height_mm": 35,
+            "depth_mm": 150
+        },
+        "weight_g": 480
+    },
+    "package_contents": [
+        {
+            "item": "主机",
+            "quantity": 1
+        },
+        {
+            "item": "电源适配器",
+            "quantity": 1
+        }
+    ],
+    "setup_instructions": [
+        {
+            "step": 1,
+            "title": "连接电源与网络",
+            "description": "接上电源与WAN口。",
+            "image": "https://cdn.example.com/an1001/setup1.png"
+        }
+    ],
+    "safety_notes": [
+        "请勿在潮湿环境中使用。",
+        "请使用原装电源适配器。"
+    ],
+    "faq": [
+        {
+            "question": "默认密码是什么？",
+            "answer": "admin123"
+        }
+    ],
+    "warranty": {
+        "period_months": 24,
+        "policy": "24个月内非人为损坏免费维修。",
+        "contact": {
+            "phone": "400-123-4567",
+            "email": "support@example.com",
+            "website": "https://example.com/support"
+        }
+    },
+    "extra_resources": {
+        "pdf_manual_url": "https://cdn.example.com/an1001/manual.pdf",
+        "firmware_download_url": "https://cdn.example.com/an1001/firmware.bin",
+        "support_forum": "https://forum.example.com/an1001"
+    },
+    "related_products": [
+        {
+            "id": "AN-1002",
+            "relation_type": "accessory",
+            "name": {
+                "zh": "AI 网络中继器",
+                "en": "AI Network Repeater"
+            },
+            "link": "https://yourcdn.com/manuals/an1002/manual-an1002-zh-v1.0.0.json"
+        },
+        {
+            "id": "AN-PSU12V2A",
+            "relation_type": "optional_power_supply",
+            "name": {
+                "zh": "12V/2A 备用电源",
+                "en": "12V/2A Spare Power Supply"
+            },
+            "link": "https://yourcdn.com/manuals/an-psu12v2a/manual-zh-v1.0.0.json"
+        }
+    ],
+    "regulatory": {
+        "certifications": [
+            {
+                "region": "CE",
+                "code": "CE-2025-12345",
+                "issued_date": "2025-05-01"
+            },
+            {
+                "region": "FCC",
+                "code": "FCC-AN1001-XYZ",
+                "issued_date": "2025-06-10"
+            }
+        ],
+        "standards_compliance": [
+            "RoHS",
+            "WEEE",
+            "RE Directive 2014/53/EU"
+        ],
+        "warning_labels": [
+            "此设备符合欧盟 CE 安全标准。",
+            "请勿擅自拆机，否则将影响保修。"
+        ]
+    },
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2025-10-01",
+            "changes": [
+                "初始版本发布",
+                "支持中文与英文说明"
+            ]
+        },
+        {
+            "version": "1.1.0",
+            "date": "2025-11-15",
+            "changes": [
+                "增加FAQ内容",
+                "更新安装步骤图示"
+            ]
+        }
+    ]
+}
